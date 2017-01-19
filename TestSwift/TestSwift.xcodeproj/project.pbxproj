@@ -12,6 +12,7 @@
 		9E1903CB1E3127310074AADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1903C91E3127310074AADB /* Main.storyboard */; };
 		9E1903CD1E3127310074AADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1903CC1E3127310074AADB /* Assets.xcassets */; };
 		9E1903D01E3127310074AADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1903CE1E3127310074AADB /* LaunchScreen.storyboard */; };
+		9E1903DA1E312EE80074AADB /* Harry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1903D91E312EE80074AADB /* Harry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9E1903CC1E3127310074AADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E1903CF1E3127310074AADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E1903D11E3127310074AADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1903D91E312EE80074AADB /* Harry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Harry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				9E1903C51E3127310074AADB /* AppDelegate.swift */,
 				9E1903C71E3127310074AADB /* ViewController.swift */,
+				9E1903D91E312EE80074AADB /* Harry.swift */,
 				9E1903C91E3127310074AADB /* Main.storyboard */,
 				9E1903CC1E3127310074AADB /* Assets.xcassets */,
 				9E1903CE1E3127310074AADB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E1903DA1E312EE80074AADB /* Harry.swift in Sources */,
 				9E1903C81E3127310074AADB /* ViewController.swift in Sources */,
 				9E1903C61E3127310074AADB /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				9E1903D61E3127310074AADB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
